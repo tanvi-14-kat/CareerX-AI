@@ -1,0 +1,298 @@
+[
+  {
+    "career": "Software Developer",
+    "description": "Design, build, test, and maintain software applications across web, mobile, and desktop platforms.",
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "Git",
+      "SQL",
+      "REST APIs",
+      "OOP"
+    ],
+    "interests": [
+      "Programming",
+      "Technology",
+      "Problem Solving",
+      "Building Products"
+    ],
+    "education": [
+      "B.Tech",
+      "B.E.",
+      "BCA",
+      "MCA",
+      "B.Sc Computer Science"
+    ],
+    "learning_path": [
+      "Programming fundamentals (Python or Java)",
+      "Data structures and algorithms",
+      "Version control with Git and GitHub",
+      "Backend or frontend development",
+      "Databases and SQL basics",
+      "Build and deploy real-world projects"
+    ]
+  },
+  {
+    "career": "Data Analyst",
+    "description": "Collect, process, and interpret structured data to help organizations make informed business decisions.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Tableau",
+      "Statistics",
+      "Pandas"
+    ],
+    "interests": [
+      "Data",
+      "Business",
+      "Analytics",
+      "Reporting",
+      "Problem Solving"
+    ],
+    "education": [
+      "B.Tech",
+      "B.Sc Statistics",
+      "BBA",
+      "MBA",
+      "B.Sc Mathematics",
+      "MCA"
+    ],
+    "learning_path": [
+      "Excel and spreadsheet fundamentals",
+      "SQL for data querying",
+      "Python with Pandas and NumPy",
+      "Data visualization with Power BI or Tableau",
+      "Statistics and probability basics",
+      "Capstone project with a real dataset"
+    ]
+  },
+  {
+    "career": "Data Scientist",
+    "description": "Apply statistical modeling, machine learning, and advanced analytics to extract insights and build predictive models from large datasets.",
+    "skills": [
+      "Python",
+      "R",
+      "Machine Learning",
+      "Statistics",
+      "SQL",
+      "Scikit-learn",
+      "TensorFlow",
+      "Data Visualization"
+    ],
+    "interests": [
+      "Data",
+      "Research",
+      "Machine Learning",
+      "Mathematics",
+      "AI"
+    ],
+    "education": [
+      "B.Tech",
+      "M.Tech",
+      "M.Sc Statistics",
+      "M.Sc Data Science",
+      "MBA Analytics"
+    ],
+    "learning_path": [
+      "Mathematics: statistics, linear algebra, probability",
+      "Python programming and data manipulation",
+      "Machine learning algorithms with Scikit-learn",
+      "Deep learning basics with TensorFlow or PyTorch",
+      "Feature engineering and model evaluation",
+      "End-to-end data science project on Kaggle or GitHub"
+    ]
+  },
+  {
+    "career": "AI/ML Engineer",
+    "description": "Design, develop, and deploy production-grade machine learning models and AI systems at scale.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Deep Learning",
+      "MLOps",
+      "Docker",
+      "REST APIs",
+      "Cloud Platforms"
+    ],
+    "interests": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Research",
+      "Automation",
+      "Technology"
+    ],
+    "education": [
+      "B.Tech",
+      "M.Tech",
+      "M.Sc Computer Science",
+      "M.Sc AI",
+      "PhD (optional)"
+    ],
+    "learning_path": [
+      "Strong Python programming foundation",
+      "Mathematics for ML: calculus, linear algebra, statistics",
+      "Machine learning with Scikit-learn",
+      "Deep learning with TensorFlow or PyTorch",
+      "MLOps: model deployment, monitoring, and pipelines",
+      "Cloud ML services (AWS SageMaker, GCP Vertex AI, Azure ML)",
+      "Publish models or research projects"
+    ]
+  },
+  {
+    "career": "Cybersecurity Analyst",
+    "description": "Monitor, detect, and respond to security threats to protect an organization systems, networks, and data.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Ethical Hacking",
+      "SIEM Tools",
+      "Firewalls",
+      "Python",
+      "Risk Assessment",
+      "Incident Response"
+    ],
+    "interests": [
+      "Security",
+      "Networking",
+      "Problem Solving",
+      "Technology",
+      "Cyber Defense"
+    ],
+    "education": [
+      "B.Tech",
+      "B.E.",
+      "B.Sc IT",
+      "MCA",
+      "Certifications (CEH, CompTIA Security+, CISSP)"
+    ],
+    "learning_path": [
+      "Networking fundamentals (TCP/IP, DNS, HTTP)",
+      "Linux and command-line basics",
+      "Cybersecurity concepts and threat landscape",
+      "Ethical hacking and penetration testing",
+      "SIEM tools (Splunk, IBM QRadar)",
+      "Earn certifications: CompTIA Security+, CEH, or OSCP",
+      "Practice on platforms like TryHackMe or HackTheBox"
+    ]
+  },
+  {
+    "career": "Cloud Engineer",
+    "description": "Design, implement, and manage scalable cloud infrastructure and services on platforms like AWS, Azure, or GCP.",
+    "skills": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "Networking",
+      "CI/CD"
+    ],
+    "interests": [
+      "Cloud Computing",
+      "Infrastructure",
+      "DevOps",
+      "Automation",
+      "Networking"
+    ],
+    "education": [
+      "B.Tech",
+      "B.E.",
+      "B.Sc IT",
+      "MCA",
+      "Certifications (AWS SAA, Azure AZ-900, GCP ACE)"
+    ],
+    "learning_path": [
+      "Linux and networking fundamentals",
+      "Introduction to cloud computing (AWS or Azure)",
+      "Infrastructure as Code with Terraform",
+      "Containerization with Docker and Kubernetes",
+      "CI/CD pipelines and DevOps practices",
+      "Earn a cloud certification (AWS SAA, Azure AZ-104, GCP ACE)",
+      "Deploy a full cloud-native application project"
+    ]
+  },
+  {
+    "career": "UI/UX Designer",
+    "description": "Research user needs, design intuitive interfaces, and create seamless digital experiences for web and mobile products.",
+    "skills": [
+      "Figma",
+      "Adobe XD",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "HTML",
+      "CSS",
+      "Usability Testing"
+    ],
+    "interests": [
+      "Design",
+      "Art",
+      "Psychology",
+      "Technology",
+      "User Experience",
+      "Creativity"
+    ],
+    "education": [
+      "B.Des",
+      "B.Tech",
+      "BFA",
+      "B.Sc IT",
+      "Diploma in UX Design",
+      "BCA"
+    ],
+    "learning_path": [
+      "Design principles: typography, color, layout",
+      "User research and persona creation",
+      "Wireframing and prototyping with Figma",
+      "Usability testing and feedback iteration",
+      "HTML and CSS basics for developer collaboration",
+      "Build a design portfolio with 3-5 case studies",
+      "Learn accessibility and inclusive design"
+    ]
+  },
+  {
+    "career": "DevOps Engineer",
+    "description": "Bridge development and operations by automating software delivery pipelines, managing infrastructure, and ensuring system reliability.",
+    "skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Git",
+      "Terraform",
+      "Python",
+      "CI/CD",
+      "Monitoring"
+    ],
+    "interests": [
+      "Automation",
+      "Infrastructure",
+      "Cloud Computing",
+      "Programming",
+      "System Administration"
+    ],
+    "education": [
+      "B.Tech",
+      "B.E.",
+      "B.Sc IT",
+      "MCA",
+      "Certifications (AWS DevOps, CKA, Docker DCA)"
+    ],
+    "learning_path": [
+      "Linux administration and shell scripting",
+      "Version control with Git",
+      "CI/CD pipelines with Jenkins or GitHub Actions",
+      "Containerization with Docker",
+      "Container orchestration with Kubernetes",
+      "Infrastructure as Code with Terraform or Ansible",
+      "Monitoring with Prometheus and Grafana",
+      "Deploy a full DevOps pipeline project end-to-end"
+    ]
+  }
+]
