@@ -1,16 +1,21 @@
-# React + Vite
+# CareerX AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerX AI is an AI-powered career intelligence, resume ATS scoring, skill gap roadmap, and mock interview coaching platform.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Resume & ATS Optimization Scanner**: Evaluates ATS pass rates, identifies missing high-yield keywords, and rewrites bullet points into quantified STAR-format achievements.
+- **Skill Gap & Career Roadmap Architect**: Compares baseline proficiencies with target dream roles (AI Engineer, ML Scientist, AI Product Manager, etc.) to generate milestone-driven learning blueprints.
+- **AI Mock Interview & Bar Raiser Coach**: Simulates technical, behavioral, and system design interviews with instant rubric evaluations, voice dictation, and benchmark answers.
+- **Pitch & Cover Letter Studio**: Generates tailored cover letters, recruiter LinkedIn InMails, and 30-second elevator pitches with customizable communication tones.
+- **Market Intelligence & Compensation Benchmarks**: Real-time salary percentiles (25th, median, 75th, 90th) and upskilling ROI projections across top technology disciplines.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 18, TypeScript, Tailwind CSS, Lucide Icons, Vite
+- **Backend**: FastAPI
+  - `GET /`
+  - `GET /health`
+  - `POST /api/career/recommend`
+  - `POST /api/skill-gap/analyze`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
