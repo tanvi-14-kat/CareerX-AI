@@ -28,7 +28,7 @@ export const App: React.FC = () => {
   const [careerResults, setCareerResults] = useState<CareerRecommendationResponse | null>(null);
 
   // Skill gap target context
-  const [activeSkillGapTarget, setActiveSkillGapTarget] = useState<string>("AI / ML Solutions Engineer");
+  const [activeSkillGapTarget, setActiveSkillGapTarget] = useState<string>("AI/ML Engineer");
   const [activeCurrentSkills, setActiveCurrentSkills] = useState<string[]>([
     "Python",
     "JavaScript",

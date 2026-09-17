@@ -19,15 +19,18 @@ interface SkillGapViewProps {
 }
 
 const CAREER_PRESETS = [
-  "AI / ML Solutions Engineer",
-  "AI/ML Engineer",
-  "Full-Stack Software Engineer",
-  "Product Designer & Design Technologist",
+  "Software Developer",
+  "Data Analyst",
   "Data Scientist",
+  "AI/ML Engineer",
+  "Cybersecurity Analyst",
+  "Cloud Engineer",
+  "UI/UX Designer",
+  "DevOps Engineer",
 ];
 
 export const SkillGapView: React.FC<SkillGapViewProps> = ({
-  initialCareer = "AI / ML Solutions Engineer",
+  initialCareer = "AI/ML Engineer",
   initialSkills = ["Python", "JavaScript", "SQL", "Git"],
   onNavigateToRoadmap,
 }) => {
@@ -36,6 +39,12 @@ export const SkillGapView: React.FC<SkillGapViewProps> = ({
   const [data, setData] = useState<SkillGapAnalyzeResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Sync state if initial props change (e.g. user clicked "Analyze Skill Gap" from results)
+  useEffect(() => {
+    if (initialCareer) setTargetCareer(initialCareer);
+    if (initialSkills) setCurrentSkills(initialSkills);
+  }, [initialCareer, initialSkills]);
 
   const fetchSkillGap = async (career: string, skills: string[]) => {
     setLoading(true);
@@ -52,7 +61,7 @@ export const SkillGapView: React.FC<SkillGapViewProps> = ({
 
   useEffect(() => {
     fetchSkillGap(targetCareer, currentSkills);
-  }, [targetCareer]);
+  }, [targetCareer, currentSkills]);
 
   return (
     <div className="space-y-8 pb-16">
