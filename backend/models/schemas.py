@@ -8,3 +8,8 @@ class StudentProfile(BaseModel):
     skills: List[str]
     goal: str
     study_hours: int = Field(..., ge=0, le=24)
+
+
+class SkillGapRequest(BaseModel):
+    career: str
+    skills: List[str]

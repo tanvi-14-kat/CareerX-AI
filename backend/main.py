@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from routes.career import router as career_router
+from routes.skill import router as skill_router
 
 app = FastAPI(
     title="CareerX AI API",
@@ -8,6 +9,8 @@ app = FastAPI(
 )
 
 app.include_router(career_router)
+app.include_router(skill_router)
+
 
 
 @app.get("/")
