@@ -84,7 +84,7 @@ export const Navigation: React.FC<NavigationProps> = ({
                   <Icon className={`w-3.5 h-3.5 ${isActive ? "text-indigo-600" : "text-slate-400"}`} />
                   <span>{item.label}</span>
                   {item.comingNext && (
-                    <span className="text-[9px] font-medium px-1.5 py-0.2 rounded-full bg-slate-200/70 text-slate-600">
+                    <span className="text-[9px] font-medium px-1.5 py-0.5 rounded-full bg-slate-200/70 text-slate-600">
                       Coming Next
                     </span>
                   )}

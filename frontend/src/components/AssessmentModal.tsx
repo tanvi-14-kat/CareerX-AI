@@ -127,7 +127,7 @@ export const AssessmentModal: React.FC<AssessmentModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-xs overflow-y-auto">
-      <div className="bg-white w-full max-w-2xl rounded-2xl border border-slate-200/90 shadow-2xl p-6 sm:p-8 space-y-6 animate-in fade-in zoom-in-95 duration-200 my-8">
+      <div className="bg-white w-full max-w-2xl rounded-2xl border border-slate-200/90 shadow-2xl p-6 sm:p-8 space-y-6 my-8 transition-all duration-200">
         
         {/* Header & Step Indicator */}
         <div className="flex items-center justify-between border-b border-slate-100 pb-4">
@@ -368,7 +368,7 @@ export const AssessmentModal: React.FC<AssessmentModalProps> = ({
                       onClick={() => setGoal(example)}
                       className="text-left text-indigo-600 hover:underline hover:text-indigo-800"
                     >
-                      "{example}"
+                      {example}
                     </button>
                   ))}
                 </div>

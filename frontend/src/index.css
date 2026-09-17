@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 @source "../index.html";
 @source "./**/*.{js,ts,jsx,tsx}";
 
@@ -53,4 +53,18 @@
 
 .animate-subtle-pulse {
   animation: subtle-pulse 4s ease-in-out infinite;
+}
+
+/* scrollbar-none utility — used in Navigation mobile scroll strip */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* border-3 — used for loading spinners */
+.border-3 {
+  border-width: 3px;
 }
