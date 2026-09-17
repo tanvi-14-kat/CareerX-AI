@@ -235,11 +235,13 @@ export const App: React.FC = () => {
 
         {/* 5. LEARNING ROADMAP (Coming Next preview) */}
         {activeTab === "roadmap" && (
-          <RoadmapView
-            targetRole={activeSkillGapTarget}
-            onExploreSkillGap={() => setActiveTab("skill-gap")}
-          />
-        )}
+  <RoadmapView
+    careerData={careerResults}
+    studentProfile={studentProfile}
+    targetRole={activeSkillGapTarget}
+    onExploreSkillGap={() => setActiveTab("skill-gap")}
+  />
+)}
 
         {/* 6. MARKET DEMAND & SALARY TRENDS (Coming Next) */}
         {activeTab === "market" && <MarketTrendsView />}
